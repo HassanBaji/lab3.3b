@@ -1,0 +1,15 @@
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\NWindBusinessObjects.deps.json
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\NWindBusinessObjects.runtimeconfig.json
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\NWindBusinessObjects.runtimeconfig.dev.json
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\NWindBusinessObjects.dll
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\ref\NWindBusinessObjects.dll
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\bin\Debug\net5.0\NWindBusinessObjects.pdb
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.csproj.AssemblyReference.cache
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.AssemblyInfoInputs.cache
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.AssemblyInfo.cs
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.dll
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\ref\NWindBusinessObjects.dll
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.pdb
+C:\Users\201801919\Downloads\Unit 3 Lab3b Shell - Design\NWindBusinessObjects\obj\Debug\net5.0\NWindBusinessObjects.genruntimeconfig.cache
