@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj": {}
+    "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj": {
+    "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj",
+        "projectUniqueName": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj",
         "projectName": "NorthwindApp",
-        "projectPath": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj",
-        "packagesPath": "C:\\Users\\201801919\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\obj\\",
+        "projectPath": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\NorthwindApp.csproj",
+        "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NorthwindApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\201801919\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,8 +32,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj"
+              "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj"
               }
             }
           }
@@ -55,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,28 +66,26 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj": {
+    "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj",
         "projectName": "NWindBusinessObjects",
-        "projectPath": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\201801919\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\201801919\\Downloads\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\obj\\",
+        "projectPath": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\NWindBusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\hassa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hassa\\Documents\\GitHub\\lab3.3b\\Unit 3 Lab3b Shell - Design\\NWindBusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\201801919\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hassa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -134,7 +131,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -143,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
