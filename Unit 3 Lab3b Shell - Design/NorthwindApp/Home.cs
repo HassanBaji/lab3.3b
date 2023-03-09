@@ -45,19 +45,35 @@ namespace NorthwindApp
             lblCustomers.Text = context.Customers.Count().ToString();
             lblTodayOrders.Text =  context.Orders.Where(x => x.OrderDate.Value.Date == DateTime.Today.Date).Count().ToString();
             //lblTodaySales.Text = context.OrderDetails.Where(x => x.Order.OrderDate == DateTime.Today.Date).Sum(x => x.Quantity * x.UnitPrice).ToString();
-
+            //how to make the same thing but with foreach loop
             double sum;
             foreach (OrderDetail unit in context.OrderDetails)
             {
-
-                Order order = (Order)context.Orders.Where(x => x.OrderId);
+               
+                Order order = (Order)context.Orders.Find(unit.OrderId);
                 if (order.OrderDate == DateTime.Today.Date)
                 {
                     sum = Convert.ToDouble(unit.UnitPrice) * Convert.ToDouble(unit.Quantity);
                     lblTodaySales.Text = Convert.ToString(sum);
                 }
+                else
+                {
+                    lblTodaySales.Text = "0";
+                }
             }
 
+            lblTotalSales.Text = context.OrderDetails.Sum(x=> x.Quantity * x.UnitPrice).ToString();
+
+            lblTopSellingProduct.Text = context.OrderDetails.OrderByDescending(x => x.Product.UnitPrice * x.Quantity)
+                                     .Select(x => x.Product.ProductName)
+                                     .FirstOrDefault();
+
+
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            LoadStatistics();
         }
     }
 }
