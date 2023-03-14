@@ -94,6 +94,7 @@ namespace NorthwindApp
             this.btnResetFilter.TabIndex = 10;
             this.btnResetFilter.Text = "Reset / Refresh";
             this.btnResetFilter.UseVisualStyleBackColor = false;
+            this.btnResetFilter.Click += new System.EventHandler(this.btnResetFilter_Click);
             // 
             // ddlFilterCustomer
             // 
@@ -123,6 +124,7 @@ namespace NorthwindApp
             this.btnFilter.TabIndex = 6;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseVisualStyleBackColor = false;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // txtFilterOrderNo
             // 
@@ -142,6 +144,7 @@ namespace NorthwindApp
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add Order";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDetails
             // 
@@ -166,6 +169,7 @@ namespace NorthwindApp
             this.btnDelete.TabIndex = 14;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnClose
             // 
@@ -208,6 +212,7 @@ namespace NorthwindApp
             this.Name = "frmOrders";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Orders Management";
+            this.Load += new System.EventHandler(this.frmOrders_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrders)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

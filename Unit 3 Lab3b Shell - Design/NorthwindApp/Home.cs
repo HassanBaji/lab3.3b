@@ -75,5 +75,10 @@ namespace NorthwindApp
         {
             LoadStatistics();
         }
+
+        private void btnManageOrders_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

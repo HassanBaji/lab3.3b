@@ -320,6 +320,7 @@ namespace NorthwindApp
             this.btnManageOrders.TabIndex = 8;
             this.btnManageOrders.Text = "Manage Orders";
             this.btnManageOrders.UseVisualStyleBackColor = false;
+            this.btnManageOrders.Click += new System.EventHandler(this.btnManageOrders_Click);
             // 
             // lblEmployeeName
             // 
