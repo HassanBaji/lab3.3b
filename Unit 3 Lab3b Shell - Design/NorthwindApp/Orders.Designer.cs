@@ -195,6 +195,7 @@ namespace NorthwindApp
             this.btnEditOrder.TabIndex = 16;
             this.btnEditOrder.Text = "Edit Order";
             this.btnEditOrder.UseVisualStyleBackColor = false;
+            this.btnEditOrder.Click += new System.EventHandler(this.btnEditOrder_Click);
             // 
             // frmOrders
             // 

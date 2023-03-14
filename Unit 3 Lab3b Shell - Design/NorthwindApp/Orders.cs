@@ -105,7 +105,26 @@ namespace NorthwindApp
         {
             frmOrdersDialogueAdd frm = new frmOrdersDialogueAdd();
             frm.ShowDialog();
-            refreshList();
+
+            if(frm.DialogResult== DialogResult.OK)
+            {
+                refreshList();
+            }
+          
+        }
+
+        private void btnEditOrder_Click(object sender, EventArgs e)
+        {
+            //getting the cell calye of the orderid cell
+            int firstCell = Convert.ToInt32(dgvOrders.SelectedCells[0].OwningRow.Cells[0].Value);
+            //creating order from the value of that cell
+            Order order = context.Orders.Find(firstCell);
+            frmOrdersDialogueAdd frm = new frmOrdersDialogueAdd(order);
+            frm.ShowDialog();
+            if (frm.DialogResult== DialogResult.OK)
+            {
+                refreshList();
+            }
         }
     }
 }
