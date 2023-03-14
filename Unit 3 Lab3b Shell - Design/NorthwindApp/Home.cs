@@ -78,7 +78,8 @@ namespace NorthwindApp
 
         private void btnManageOrders_Click(object sender, EventArgs e)
         {
-
+            frmOrders frm = new frmOrders();
+            frm.ShowDialog();
         }
     }
 }

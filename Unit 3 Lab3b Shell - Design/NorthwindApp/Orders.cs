@@ -24,8 +24,7 @@ namespace NorthwindApp
 
         private void frmOrders_Load(object sender, EventArgs e)
         {
-            frmOrders frm = new frmOrders();
-            frm.ShowDialog();
+
             ddlFilterCustomer.DataSource = context.Customers.ToList();
             ddlFilterCustomer.DisplayMember = "ContactName";
             ddlFilterCustomer.ValueMember= "CustomerID";
@@ -65,6 +64,8 @@ namespace NorthwindApp
 
         private void btnResetFilter_Click(object sender, EventArgs e)
         {
+            txtFilterOrderNo.Text = "";
+            ddlFilterCustomer.SelectedItem = null;
             refreshList();
         }
 

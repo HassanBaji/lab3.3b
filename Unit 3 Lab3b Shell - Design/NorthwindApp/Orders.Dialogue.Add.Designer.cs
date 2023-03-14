@@ -281,6 +281,7 @@ namespace NorthwindApp
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -306,6 +307,7 @@ namespace NorthwindApp
             this.Name = "frmOrdersDialogueAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "New/Edit Order";
+            this.Load += new System.EventHandler(this.frmOrdersDialogueAdd_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
