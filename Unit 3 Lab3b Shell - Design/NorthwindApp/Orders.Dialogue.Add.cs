@@ -56,7 +56,30 @@ namespace NorthwindApp
          
             if (order.OrderId > 0)
             {
-            
+                txtOrderID.Text = order.OrderId.ToString();
+                ddlCustomer.SelectedValue = order.CustomerId;
+                ddlEmployee.SelectedValue = order.EmployeeId;
+                dtpOrderDate.Value = order.OrderDate.Value;
+                dtpRequiredDate.Value = order.RequiredDate.Value;
+                
+                if (order.ShippedDate != null)
+                {
+                    dtpShippedDate.Checked= true;
+                    dtpShippedDate.Value= order.ShippedDate.Value;
+
+                }
+                else
+                {
+                    dtpShippedDate.Checked = false;
+                    dtpShippedDate.Value = DateTime.Today;
+                }
+                ddlShipVia.SelectedValue= order.ShipVia != null ? order.ShipVia : "";
+
+                txtAddress.Text = order.ShipAddress;
+                txtCity.Text = order.ShipCity;
+                txtCountry.Text = order.ShipCountry;
+                txtFreight.Text = order.Freight.ToString();
+
             }
 
         }
@@ -65,7 +88,8 @@ namespace NorthwindApp
         {
             try
             {
-           
+
+                order.Customer = null; order.Employee = null; order.ShipViaNavigation= null;
 
                 //populate the order objts
                 order.CustomerId = ddlCustomer.SelectedValue.ToString();
@@ -93,9 +117,16 @@ namespace NorthwindApp
                 order.ShipCountry = txtCountry.Text;
 
                 order.Freight = txtFreight.Text != "" ? Convert.ToDecimal(txtFreight.Text) : null;
-
-                //3dd the order to the orders DBSet
-                context.Orders.Add(order);
+                if (order.OrderId > 0)
+                {
+                    context.Orders.Update(order);
+                }
+                else
+                {
+                    context.Orders.Add(order);
+                }
+                
+                
 
                 //Execute the insert SQL
                 context.SaveChanges();
