@@ -126,5 +126,22 @@ namespace NorthwindApp
                 refreshList();
             }
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnDetails_Click(object sender, EventArgs e)
+        {
+            int firstCell = Convert.ToInt32(dgvOrders.SelectedCells[0].OwningRow.Cells[0].Value);
+            frmDetails frm = new frmDetails(firstCell);
+            frm.ShowDialog();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

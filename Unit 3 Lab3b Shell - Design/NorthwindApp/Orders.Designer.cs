@@ -81,6 +81,7 @@ namespace NorthwindApp
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Filters";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnResetFilter
             // 
@@ -157,6 +158,7 @@ namespace NorthwindApp
             this.btnDetails.TabIndex = 7;
             this.btnDetails.Text = "Order Details";
             this.btnDetails.UseVisualStyleBackColor = false;
+            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
             // btnDelete
             // 
@@ -183,6 +185,7 @@ namespace NorthwindApp
             this.btnClose.TabIndex = 15;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnEditOrder
             // 

@@ -53,6 +53,7 @@ namespace NorthwindApp
             this.btnSave.TabIndex = 17;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // groupBox3
             // 
@@ -78,6 +79,7 @@ namespace NorthwindApp
             this.btnDeleteOrderDetail.TabIndex = 24;
             this.btnDeleteOrderDetail.Text = "Delete Line";
             this.btnDeleteOrderDetail.UseVisualStyleBackColor = false;
+            this.btnDeleteOrderDetail.Click += new System.EventHandler(this.btnDeleteOrderDetail_Click);
             // 
             // btnEditOrderDetail
             // 
@@ -90,6 +92,7 @@ namespace NorthwindApp
             this.btnEditOrderDetail.TabIndex = 23;
             this.btnEditOrderDetail.Text = "Edit Line";
             this.btnEditOrderDetail.UseVisualStyleBackColor = false;
+            this.btnEditOrderDetail.Click += new System.EventHandler(this.btnEditOrderDetail_Click);
             // 
             // btnAddOrderDetail
             // 
@@ -102,6 +105,7 @@ namespace NorthwindApp
             this.btnAddOrderDetail.TabIndex = 22;
             this.btnAddOrderDetail.Text = "Add Line";
             this.btnAddOrderDetail.UseVisualStyleBackColor = false;
+            this.btnAddOrderDetail.Click += new System.EventHandler(this.btnAddOrderDetail_Click);
             // 
             // dgvOrderDetails
             // 
@@ -163,6 +167,7 @@ namespace NorthwindApp
             this.Name = "frmDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order Details";
+            this.Load += new System.EventHandler(this.frmDetails_Load);
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrderDetails)).EndInit();
             this.ResumeLayout(false);

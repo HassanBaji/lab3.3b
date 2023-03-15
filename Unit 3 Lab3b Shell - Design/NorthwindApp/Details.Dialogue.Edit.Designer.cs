@@ -105,6 +105,7 @@ namespace NorthwindApp
             this.ddlProduct.Name = "ddlProduct";
             this.ddlProduct.Size = new System.Drawing.Size(217, 23);
             this.ddlProduct.TabIndex = 8;
+            this.ddlProduct.SelectedIndexChanged += new System.EventHandler(this.ddlProduct_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -157,6 +158,7 @@ namespace NorthwindApp
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "Add and Close";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -169,6 +171,7 @@ namespace NorthwindApp
             this.btnCancel.TabIndex = 22;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmDetailsDialogueEdit
             // 
@@ -182,6 +185,7 @@ namespace NorthwindApp
             this.Name = "frmDetailsDialogueEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order Detail";
+            this.Load += new System.EventHandler(this.frmDetailsDialogueEdit_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
